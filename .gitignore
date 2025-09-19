@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/renderdocapi
+renderdocapi.so
+renderdocapi.dylib
+renderdocapi.dll
+renderdocapi.a
+renderdocapi.lib
+renderdocapi-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

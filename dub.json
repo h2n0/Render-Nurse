@@ -1,0 +1,18 @@
+{
+	"authors": [
+		"Elliot"
+	],
+	"copyright": "Copyright © 2025, Elliot",
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "render-nurse",
+	"configurations": [
+		{
+			"name": "default",
+			"targetType": "sourceLibrary",
+			"excludedSourceFiles": [
+				"source/app.d"
+			]
+		}
+	]
+}
