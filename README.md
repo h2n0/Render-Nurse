@@ -5,7 +5,15 @@ A Simple D Language binding for the [RenderDoc API](https://renderdoc.org/docs/i
 ### **Currently only supports Linux**
 
 ## Installation
-` Insert DUB installation instructions`
+#### dub.json
+```json
+    "render-nurse": "~>0.0.1"
+```
+
+#### dub.sdl
+```sdl
+    dependency "render-nurse" version="~>0.0.1"
+```
 
 ## Example Usage
 ```d
@@ -14,7 +22,7 @@ module source.test;
 import std.stdio:writeln;
 import rendernurse.nurse;
 
-RenderDocAPI rdoc;
+RENDERDOC_API rdoc;
 
 void main(){
     rdoc = attachToRenderDoc();
